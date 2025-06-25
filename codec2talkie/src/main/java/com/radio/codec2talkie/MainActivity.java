@@ -125,8 +125,8 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
         Log.i(TAG, "onCreate()");
 
         // title
-        String appName = getResources().getString(R.string.app_name);
-        setTitle(appName + " v" + BuildConfig.VERSION_NAME);
+        String appName = "RAIO ONE" ;
+        setTitle(appName);
 
         _sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
