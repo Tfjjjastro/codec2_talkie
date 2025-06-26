@@ -5,7 +5,7 @@
     <string name="menu_settings">Settings</string>
     <string name="menu_exit">Exit</string>
 
-    <string name="ports_category_title">TNC Settings</string>
+    <string name="ports_category_title">RAIO ONE Settings</string>
     <string name="kiss_category_title">KISS Settings</string>
 
     <string name="usb_serial_speed_title">USB Serial Speed</string>
@@ -139,7 +139,7 @@
     <string name="bt_connected">BT connected</string>
     <string name="bt_connecting_to">Connecting to %1$s</string>
     <string name="bt_turned_on">Bluetooth turned on</string>
-    <string name="menu_reconnect">Reconnect to TNC</string>
+    <string name="menu_reconnect">Reconnect to RAIO ONE</string>
     <string name="bt_connecting">Connecting bluetooth…</string>
     <string name="usb_connecting">Connecting USB…</string>
     <string name="usb_connection_failed">USB connection failed</string>
@@ -171,8 +171,8 @@
     <string name="permissions_denied">Permissions denied</string>
     <string name="usb_detached">USB detached</string>
     <string name="bt_disconnected">Bluetooth disconnected</string>
-    <string name="processor_connected">TNC connected</string>
-    <string name="processor_disconnected">TNC disconnected</string>
+    <string name="processor_connected">RAIO_ONE connected</string>
+    <string name="processor_disconnected">RAIO_ONE disconnected</string>
     <string name="worker_failed_to_start_processing">Failed to start application worker</string>
 
     <string name="kiss_scrambler_label">&#128274;</string>
@@ -194,8 +194,8 @@
     <string name="usb_serial_title">USB serial settings</string>
     <string name="usb_serial_summary">Set USB serial settings, such as speed, bits, parity, etc.</string>
 
-    <string name="tnc_extended_title">Extended TNC settings</string>
-    <string name="tnc_extended_summary">Additional TNC specific settings</string>
+    <string name="tnc_extended_title">Extended RAIO_ONE settings</string>
+    <string name="tnc_extended_summary">Additional RAIO_ONE specific settings</string>
     <string name="tnc_extended_uart_title">UART modem prefix</string>
 
     <string name="custom_prefix_enabled_title">Enable UART modem TX prefix</string>
@@ -209,7 +209,7 @@
     <string name="app_audio_input_voice_communication_summary">"Enable echo cancellation and noise suppression (might cause lower mic gain)"</string>
 
     <string name="ports_bt_ble_enable_title">Enable BLE</string>
-    <string name="ports_bt_ble_enable_summary">Use BLE when communicating with the TNC</string>
+    <string name="ports_bt_ble_enable_summary">Use BLE when communicating with the RAIO_ONE</string>
 
     <string name="bt_ble_scan_completed">BLE scan completed</string>
 
@@ -223,10 +223,10 @@
     <string name="aprs_voax25_enable_summary">Send voice packets inside AX.25 UI frames with PID 0xf1</string>
     <string name="aprs_enable_title">Enable APRS</string>
     <string name="aprs_enable_summary">Enable APRS tracker</string>
-    <string name="aprs_callsign_title">Callsign (without SSID)</string>
-    <string name="aprs_callsign_summary">Your HAM radio callsign</string>
+    <string name="aprs_callsign_title">Call ID</string>
+    <string name="aprs_callsign_summary">Your RAIO_ONE ID</string>
     <string name="aprs_ssid_title">SSID</string>
-    <string name="aprs_ssid_summary">Callsign SSID</string>
+    <string name="aprs_ssid_summary">Call ID</string>
     <string name="aprs_symbol_title">APRS symbol</string>
     <string name="aprs_symbol_summary">Your symbol for map display</string>
     <string name="aprs_comment_title">Comment field</string>
@@ -294,10 +294,10 @@
     <string name="aprs_location_source_smart_min_turn_angle_summary">Minimum angle at high speed</string>
     <string name="aprs_location_source_smart_turn_slope_title">Turn slope</string>
     <string name="aprs_location_source_smart_min_turn_slope_summary">Influence of speed on the minimum angle</string>
-    <string name="app_service_notif_title">Codec2Talkie is running, touch to open</string>
-    <string name="app_service_notif_text_ptt_ready">Connected to the TNC, ready for PTT</string>
+    <string name="app_service_notif_title">RAIO_ONE is running, touch to open</string>
+    <string name="app_service_notif_text_ptt_ready">Connected to the RAIO_ONE, ready for PTT</string>
     <string name="app_service_notif_text_tracking">APRS tracking is active</string>
-    <string name="app_service_notif_connection_lost">Disconnected from the TNC, click to reconnect</string>
+    <string name="app_service_notif_connection_lost">Disconnected from the RAIO_ONE, click to reconnect</string>
     <string name="aprs_log_view_title">APRS log</string>
     <string name="log_view_menu_clear">Clear log</string>
     <string name="tracking_label">&#127937;</string>
@@ -318,7 +318,7 @@
     <string name="message_groups_send_to_btn_title">Send message to…</string>
     <string name="messages_group_view_title">Groups</string>
     <string name="message_send_btn_title">Send</string>
-    <string name="send_message_to_target_edit_callsign">Callsign</string>
+    <string name="send_message_to_target_edit_callsign">Call ID</string>
     <string name="send_message_to_message_edit_text">Message text</string>
     <string name="send_message_to_btn_ok_text">Send</string>
     <string name="send_message_to_btn_cancel_text">Cancel</string>
@@ -348,7 +348,7 @@
     <string name="ports_sound_modem_type_title">Modem modulation type</string>
     <string name="ports_sound_modem_control_title">Sound modem settings</string>
     <string name="ports_sound_modem_control_settings">Set sound modem settings, such as bit rate</string>
-    <string name="ports_type_title">TNC transport type</string>
+    <string name="ports_type_title">RAIO_ONE transport type</string>
     <string name="ports_sound_modem_disable_rx_title">Disable receive</string>
     <string name="ports_sound_modem_disable_rx_summary">Run modem in transmit only mode, receive is disabled to save CPU cycles, e.g. when using APRS one way tracking</string>
     <string name="ports_sound_modem_rig_title">Select RIG model for CAT PTT control</string>
