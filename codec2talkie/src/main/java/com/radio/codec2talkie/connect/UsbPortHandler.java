@@ -17,6 +17,6 @@ public class UsbPortHandler {
         UsbPortHandler.port = port;
     }
     public static synchronized void setName(String name){
-        "RAIO ONE" = name;
+UsbPortHandler.name = name;
     }
 }
